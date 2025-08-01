@@ -1,5 +1,5 @@
 # FRAM-Data-Logger
-logging data into FRAM, utilizing RTC and ScioSense sensors
+logging data into FRAM, utilizing RTC and ScioSense ENS16x and ENS210 sensors
 
 <img src="./pic/FRAM_DATA_Logger_V01.png" width="800">
 This is an easy example of using a FRAM memory alogn with RTC and ScioSense ENS16x EVKit to create a datalogger.
