@@ -10,10 +10,10 @@ ToDo
 
 #include "setting.h"
 #include <Wire.h>
-#include "RTClib.h"
-#include <ScioSense_ENS16x.h>
-#include <ScioSense_ENS21x.h>
-#include "Adafruit_FRAM_I2C.h"
+#include "RTClib.h"             //V2.1.4  https://github.com/adafruit/RTClib
+#include <ScioSense_ENS16x.h>   //V2.0.4  https://github.com/sciosense/ens16x-arduino
+#include <ScioSense_ENS21x.h>   //V2.0.0  https://github.com/sciosense/ens21x-arduino
+#include "Adafruit_FRAM_I2C.h"  //V2.0.3  https://github.com/adafruit/Adafruit_FRAM_I2C
 
 
 
