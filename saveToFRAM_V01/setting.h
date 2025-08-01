@@ -5,6 +5,7 @@
 *   BLUE    ->  A2
 *   I2C SCL ->  A5
 *   I2C SDA ->  A4
+*   Button  ->  D10
 */
 
 #include "Arduino.h"
