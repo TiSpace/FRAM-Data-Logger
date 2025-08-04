@@ -41,8 +41,8 @@ Interactive menu available via serial monitor. Commands can be set during compil
 ```arduino
 ****************************
     FRAM Data Logger
-C:\Users\myPath\saveToFRAM_V01.ino
-19:05:35  Aug  1 2025
+C:\Users\myPath\FRAMLogger_V01.ino
+19:05:35  Aug  3 2025
 
 Menu:
 ------
