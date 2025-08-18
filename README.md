@@ -57,3 +57,9 @@ Memory size (kB):              32768
 Possible datasets to store:    3274
 Time between measurements (s): 7
 Number of stored datasets:     6
+
+
+## History
+V1.0 Initial version
+V2.0  - added ENS220 support
+      - selectable parameters
