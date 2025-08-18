@@ -1,6 +1,6 @@
 # 📝 FRAM Data Logger
 
-A compact datalogger that stores sensor data in **FRAM memory**, using an **RTC** and **ScioSense ENS16x** and **ENS210** sensors. Designed for mobile, low-power applications with timestamped logging.
+A compact datalogger that stores sensor data in **FRAM memory**, using an **RTC** and **ScioSense ENS16x** , **ENS210** and  **ENS220** sensors. Designed for mobile, low-power applications with timestamped logging.
 
 <img src="./pic/FRAM_DATA_Logger_V01.png" width="800" alt="FRAM Data Logger V01">
 
@@ -12,9 +12,9 @@ This example demonstrates how to use **FRAM memory** with an **RTC** and **ScioS
   - Low power consumption  
   - Virtually unlimited write cycles  
 - **Memory Capacity:** 32.768 kB  
-- **Dataset Format:** 10 bytes per entry (includes timestamp)  
-- **Setup Version:** `V01`  
-- **Max Datasets:** 3,276
+- **Dataset Format:** depending on setting (includes timestamp)  
+- **Setup Version:** `V02`  
+- **Max Datasets:** 32760 / size of dataset -20 
 
 ---
 
@@ -30,7 +30,7 @@ Designed for mobile use. Recommended power options:
 
 ## ⚠️ Precautions
 
-- **Baud Rate:** Set to **9600 Baud** for serial communication
+- **Baud Rate:** Set to **115200 Baud** for serial communication
 
 ---
 
@@ -40,23 +40,27 @@ Interactive menu available via serial monitor. Commands can be set during compil
 
 ```arduino
 ****************************
-    FRAM Data Logger
-C:\Users\myPath\FRAMLogger_V01.ino
-19:05:35  Aug  3 2025
+	FRAM Data Logger
+C:\Users\myPath\FRAMLogger_V02\FRAMLogger_V02.ino
+18:31:48  Aug 17 2025
 
-Menu:
+Menue:
 ------
+
 ?   this info
 d   set date and time
 s   START/STOP logging
 r   dump logging
 m   show/hide measurement
-t   set time between measurements (0–255 sec)
+t   set time between measurements (0-255sec)
+c   toggle continuous/rollover mode
+u   unified memory dump
 
-Memory size (kB):              32768
-Possible datasets to store:    3274
-Time between measurements (s): 7
-Number of stored datasets:     6
+
+Memory size (kB): 32768
+possible dataset to store:     1819
+time between measurements (s): 1
+number of stored datasets:     18
 ```
 
 
