@@ -61,6 +61,6 @@ Number of stored datasets:     6
 
 
 ## 🔄 Changelog
-V1.0  Initial version
-V2.0  - added ENS220 support
-      - selectable parameters
+V1.0  Initial version  
+V2.0  - added ENS220 support  
+      - selectable parameters  
